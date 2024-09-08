@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic css selectors</title>
+        <style>
+            /* Using tags */
+            h2{
+                color: red;
+            }
+
+            /* Using ids */
+            #Welcome{
+                background-color: blueviolet;
+            }
+
+            /* Using class */
+            .heading{
+                color: white;
+            }
+
+            /* Multiple selector */
+            #Welcome ,#About{
+                 border: 1px solid black;
+            }
+
+            /* Nested selector */
+            #Welcome p{
+                font-size: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="Welcome">
+            <h2 class="heading">Welcome</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt numquam unde fugit nostrum aspernatur, sequi aut in totam corrupti eligendi laboriosam quaerat suscipit itaque maiores autem. Inventore tempora perferendis</p>
+        </div>
+        <div id="About">
+            <h2>About</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam, cupiditate explicabo culpa ratione qui perferendis quas odio ipsa laudantium officiis architecto sint animi, adipisci quia vitae, quam nihil corrupti! Quis.</p>
+        </div>
+    </body>
+</html>
