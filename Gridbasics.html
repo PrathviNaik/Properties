@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid basics</title>
+        <style>
+            .grid{
+                display: grid;
+                grid-template-columns: 200px 200px 200px;
+                grid-gap: 1rem;
+            }
+            .item{
+                padding: 3rem;
+                border: #ccc solid 1px;
+                background: #f4f4f4;
+                font-size: 1.3rem;
+                font-weight: bold;
+                text-align: center;
+            }
+
+            main{
+                display: grid;
+                grid-template-columns: 3fr 1fr;
+                grid-gap: 1.5rem;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="grid">
+            <div class="item">Item-1</div>
+            <div class="item">Item-2</div>
+            <div class="item">Item-3</div>
+            <div class="item">Item-1</div>
+            <div class="item">Item-2</div>
+            <div class="item">Item-3</div>
+        </div>
+        <main>
+            <section>
+                <h2>Welcome to Microdegree</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, laborum officia, rerum facere similique, est modi enim dolores voluptatum pariatur eos quisquam ad nulla. Dolore, voluptate. Ut iste doloribus eos.</p>
+            </section>
+            <aside>
+                <h2>HELLOOO</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, laborum officia, rerum facere similique, est modi enim dolores voluptatum pariatur eos quisquam ad nulla. Dolore, voluptate. Ut iste doloribus eos.</p>  
+            </aside>
+        </main>
+    </body>
+</html>
